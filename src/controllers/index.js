@@ -1,6 +1,8 @@
-function returnData() {
-    return 'This string is coming from the controllers folder';
-};
+returnData = (req, res) => {
+    const data =
+      'Sarah Birch';
+    res.status(200).send(data);
+  };
 
 module.exports = {
     returnData,
