@@ -4,7 +4,8 @@
   "description": "publish API to web",
   "main": "index.js",
   "scripts": {
-    "test": "Emily Castillo"
+    "test": "Emily Castillo",
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
