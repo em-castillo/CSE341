@@ -1,0 +1,25 @@
+{
+  "name": "lesson01",
+  "version": "1.0.0",
+  "description": "publish API to web",
+  "main": "index.js",
+  "scripts": {
+    "test": "Emily Castillo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/em-castillo/CSE341.git"
+  },
+  "keywords": [
+    "lesson01"
+  ],
+  "author": "Emily Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/em-castillo/CSE341/issues"
+  },
+  "homepage": "https://github.com/em-castillo/CSE341#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
