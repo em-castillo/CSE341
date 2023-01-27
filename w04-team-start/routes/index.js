@@ -11,5 +11,6 @@ routes.use(
     res.send(docData);
   })
 );
+routes.use('/', require('./swagger'));
 
 module.exports = routes;
