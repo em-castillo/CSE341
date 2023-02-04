@@ -6,10 +6,10 @@ GET http://localhost:8080/children/63c1b52c4a0a407f459d7f54
 
 
 // RENDER LINKS
-https://lesson-02.onrender.com/children
-https://lesson-02.onrender.com/children/63c1b52c4a0a407f459d7f52
-https://lesson-02.onrender.com/children/63c1b52c4a0a407f459d7f53
-https://lesson-02.onrender.com/children/63c1b52c4a0a407f459d7f54
+https://books-e9vu.onrender.com/children
+https://books-e9vu.onrender.com/children/63c1b52c4a0a407f459d7f52
+https://books-e9vu.onrender.com/children/63c1b52c4a0a407f459d7f53
+https://books-e9vu.onrender.com/children/63c1b52c4a0a407f459d7f54
 
 // POST
 ###
@@ -49,7 +49,7 @@ DELETE http://localhost:8080/children/ HTTP/1.1
 // RENDER LINKS
 // POST
 ###
-POST https://lesson-02.onrender.com/contacts HTTP/1.1
+POST https://books-e9vu.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
@@ -64,7 +64,7 @@ content-type: application/json
 
 // PUT
 ### 
-PUT https://lesson-02.onrender.com/contacts/63c1b52c4a0a407f459d7f54 HTTP/1.1
+PUT https://books-e9vu.onrender.com/contacts/63c1b52c4a0a407f459d7f54 HTTP/1.1
 content-type: application/json
 
 {
@@ -79,4 +79,4 @@ content-type: application/json
 
 // DELETE (update id if another contact to delete was created
 ###
-DELETE https://lesson-02.onrender.com/children/ HTTP/1.1
+DELETE https://books-e9vu.onrender.com/children/ HTTP/1.1
